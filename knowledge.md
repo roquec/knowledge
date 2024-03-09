@@ -23,46 +23,81 @@ The progress bars indicate my self-assessed proficiency in each skill, ranging f
 
 ## Skills Overview
 
-<style>
-table th:first-of-type {
-    width: 250px;
-}
-table th:nth-child(2) {
-    width: 400px;
-}
-</style>
-
-
 ### Programming Languages
+<pre><code>
+C# . . . . . . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵🔵⚪️ - <a href="https://github.com/roquec/knowledge/c#">[References]</a>
+Javascript . . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/js">[References]</a>
+Python . . . . . . . . . . . . . . . . . . . . . . . . 🔵🔵⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/python">[References]</a>
+Rust . . . . . . . . . . . . . . . . . . . . . . . . . 🔵⚪️⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/rust">[References]</a>
+Go . . . . . . . . . . . . . . . . . . . . . . . . . . 🔵⚪️⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/go">[References]</a>
+Elixir . . . . . . . . . . . . . . . . . . . . . . . . 🔵⚪️⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/elixir">[References]</a>
+PowerShell . . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/powershell">[References]</a>
+</code></pre>
 
-<table>
-    <tr><td width="250px">C#</td><td width="400px"></td><td>🔵🔵🔵🔵⚪️</td><td></td></tr>
-    <tr><td>Javascript</td>      <td></td>              <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
-    <tr><td>Python</td>          <td></td>              <td>🔵🔵⚪️⚪️⚪️</td><td></td></tr>
-    <tr><td>Rust</td>            <td></td>              <td>🔵⚪️⚪️⚪️⚪️</td><td></td></tr>
-    <tr><td>Go</td>              <td></td>              <td>🔵⚪️⚪️⚪️⚪️</td><td></td></tr>
-    <tr><td>Elixir</td>          <td></td>              <td>🔵⚪️⚪️⚪️⚪️</td><td></td></tr>
-    <tr><td>PowerShell</td>      <td></td>              <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
-</table>
 
 ### C#
+<pre><code>
+Fundamentals
+  |- Syntax . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵🔵🔵 - <a href="https://github.com/roquec/knowledge/c#/fundamentals/syntax">[References]</a>
+  |- LINQ . . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵🔵🔵 - <a href="https://github.com/roquec/knowledge/c#/fundamentals/linq">[References]</a>
+  
+ORMs
+  |- EntityFramework
+  |   |- Querying . . . . . . . . . . . . . . . . . . 🔵🔵🔵🔵🔵 - <a href="https://github.com/roquec/knowledge/c#/orm/ef/querying">[References]</a>
+  |   |- Change Tracking. . . . . . . . . . . . . . . 🔵🔵🔵🔵⚪️ - <a href="https://github.com/roquec/knowledge/c#/orm/ef/change_tracking">[References]</a>
+  |   |- Migrations . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/orm/ef/migrations">[References]</a>
+  |   
+  |- Dapper . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵🔵⚪️ - <a href="https://github.com/roquec/knowledge/c#/orm/dapper">[References]</a>
+  
+Debugging
+  |- Tools. . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵🔵⚪️ - <a href="https://github.com/roquec/knowledge/c#/debugging/tools">[References]</a>
+  |- Memory dumps . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/debugging/memory_dumps">[References]</a>
 
-<table>
-    <tr><td width="250px">Fundamentals</td><td width="400px">Syntax, LINQ...</td>                   <td>🔵🔵🔵🔵⚪️</td><td></td></tr>
-    <tr><td>ORM</td>                                     <td>EF, Dapper, migrations...</td>         <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
-    <tr><td>Debugging</td>                               <td>Tools, memory dumps...</td>            <td>🔵🔵⚪️⚪️⚪️</td><td></td></tr>
-    <tr><td>Async programming</td>                       <td>Task, async/await...</td>              <td>🔵⚪️⚪️⚪️⚪️</td><td></td></tr>
-    <tr><td>Compilation</td>                             <td>Low level, IL, CLR...</td>             <td>🔵⚪️⚪️⚪️⚪️</td><td></td></tr>
-    <tr><td>Memory management</td>                       <td>Stack, Heap, GC...</td>                <td>🔵⚪️⚪️⚪️⚪️</td><td></td></tr>
-    <tr><td>Dynamic programming</td>                     <td>DLR, Emit, Expression trees...</td>    <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
-    <tr><td>Performance</td>                             <td>Benchmarking, profiling...</td>        <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
-    <tr><td>Parallel programming</td>                    <td>Threads, PLINQ...</td>                 <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
-    <tr><td>Code generation</td>                         <td>Templates, Source generators...</td>   <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
-    <tr><td>Analyzers</td>                               <td>Roslyn</td>                            <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
-</table>
+Async Programming
+  |- Tasks. . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵🔵⚪️ - <a href="https://github.com/roquec/knowledge/c#/async/tasks">[References]</a>
+  |- Async/Await. . . . . . . . . . . . . . . . . . . 🔵🔵🔵🔵⚪️ - <a href="https://github.com/roquec/knowledge/c#/async/async_await">[References]</a>
+
+Compilation
+  |- JIT. . . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/compilation/jit">[References]</a>
+  |- CLR. . . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵🔵⚪️ - <a href="https://github.com/roquec/knowledge/c#/compilation/clr">[References]</a>
+  |- Low level C# . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/compilation/low_c#">[References]</a>
+  |- IL . . . . . . . . . . . . . . . . . . . . . . . 🔵🔵⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/compilation/il">[References]</a>
+  |- Assembly . . . . . . . . . . . . . . . . . . . . 🔵🔵⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/compilation/assembly">[References]</a>
+
+Memory management
+  |- Heap . . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/memory/heap">[References]</a>
+  |- Stack. . . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/memory/stack">[References]</a>
+  |- Garbage collection . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/memory/gc">[References]</a>
+
+Dynamic programming
+  |- DLR. . . . . . . . . . . . . . . . . . . . . . . 🔵⚪️⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/dynamic/dlr">[References]</a>
+  |- Emit . . . . . . . . . . . . . . . . . . . . . . ⚪️⚪️⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/dynamic/emit">[References]</a>
+  |- Expression trees . . . . . . . . . . . . . . . . 🔵🔵⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/dynamic/expression_tree">[References]</a>
+
+Performance
+  |- Benchmarking . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/performance/benchmarking">[References]</a>
+  |- Profiling. . . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/performance/profiling">[References]</a>
+  |- Spans . . . . .  . . . . . . . . . . . . . . . . 🔵⚪️⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/performance/spans">[References]</a>
+
+Parallel programming
+  |- Threads. . . . . . . . . . . . . . . . . . . . . 🔵🔵🔵⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/parallel/threads">[References]</a>
+  |- Thread pool. . . . . . . . . . . . . . . . . . . 🔵🔵⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/parallel/thread_pool">[References]</a>
+  |- PLINQ . . . . .  . . . . . . . . . . . . . . . . 🔵🔵⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/parallel/dlinq">[References]</a>
+
+Code generation
+  |- Templates  . . . . . . . . . . . . . . . . . . . 🔵⚪️⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/code_gen/templates">[References]</a>
+  |- Source generators. . . . . . . . . . . . . . . . 🔵🔵⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/code_gen/source_generators">[References]</a>
+
+Analyzers
+  |- Roslyn . . . . . . . . . . . . . . . . . . . . . 🔵🔵⚪️⚪️⚪️ - <a href="https://github.com/roquec/knowledge/c#/analyzers/roslyn">[References]</a>
+</code></pre>
 
 
-|__Web Development__            |                                                      |             |                |
+
+
+
+
+|__Web Development__          |                                   |             |                |
 |-------------------------------|------------------------------------------------------|-------------|----------------|
 |Framework                      |_ASP.NET_                                             |🔵🔵🔵🔵⚪️|                |
 |RESTful                        |                                                      |🔵🔵🔵🔵🔵|                |
