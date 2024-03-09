@@ -45,21 +45,21 @@ table th:nth-child(2) {
     <tr><td>PowerShell</td>      <td></td>              <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
 </table>
 
+### C#
 
-
-|__C#__                         |                                                      |             |                |
-|-------------------------------|------------------------------------------------------|-------------|----------------|
-|Fundamentals                   |_Syntax, LINQ..._                                     |🔵🔵🔵🔵🔵|                |
-|ORM                            |_EF, Dapper, migrations..._                           |🔵🔵🔵🔵⚪️|                |
-|Debugging                      |_Tools, memory dumps..._                              |🔵🔵🔵⚪️⚪️|                |
-|Async programming              |_Task, async/await..._                                |🔵🔵🔵🔵⚪️|                |
-|Compilation                    |_Low level, IL, CLR..._                               |🔵🔵🔵⚪️⚪️|                |
-|Memory management              |_Stack, Heap, GC..._                                  |🔵🔵🔵⚪️⚪️|                |
-|Dynamic programming            |_DLR, Emit, Expression trees..._                      |🔵⚪️⚪️⚪️⚪️|                |
-|Performance                    |_Benchmarking, profiling..._                          |🔵🔵⚪️⚪️⚪️|                |
-|Parallel programming           |_Threads, PLINQ..._                                   |🔵🔵⚪️⚪️⚪️|                |
-|Code generation                |_Templates, Source generators..._                     |🔵🔵⚪️⚪️⚪️|                |
-|Analyzers                      |_Roslyn_                                              |🔵🔵⚪️⚪️⚪️|                |
+<table>
+    <tr><td width="250px">Fundamentals</td><td width="400px">Syntax, LINQ...</td>                   <td>🔵🔵🔵🔵⚪️</td><td></td></tr>
+    <tr><td>ORM</td>                                     <td>EF, Dapper, migrations...</td>         <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
+    <tr><td>Debugging</td>                               <td>Tools, memory dumps...</td>            <td>🔵🔵⚪️⚪️⚪️</td><td></td></tr>
+    <tr><td>Async programming</td>                       <td>Task, async/await...</td>              <td>🔵⚪️⚪️⚪️⚪️</td><td></td></tr>
+    <tr><td>Compilation</td>                             <td>Low level, IL, CLR...</td>             <td>🔵⚪️⚪️⚪️⚪️</td><td></td></tr>
+    <tr><td>Memory management</td>                       <td>Stack, Heap, GC...</td>                <td>🔵⚪️⚪️⚪️⚪️</td><td></td></tr>
+    <tr><td>Dynamic programming</td>                     <td>DLR, Emit, Expression trees...</td>    <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
+    <tr><td>Performance</td>                             <td>Benchmarking, profiling...</td>        <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
+    <tr><td>Parallel programming</td>                    <td>Threads, PLINQ...</td>                 <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
+    <tr><td>Code generation</td>                         <td>Templates, Source generators...</td>   <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
+    <tr><td>Analyzers</td>                               <td>Roslyn</td>                            <td>🔵🔵🔵⚪️⚪️</td><td></td></tr>
+</table>
 
 
 |__Web Development__            |                                                      |             |                |
