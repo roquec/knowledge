@@ -8,18 +8,14 @@ This document tracks my skill levels, learning goals, and progress across a wide
 
 The progress bars indicate my self-assessed proficiency in each skill, ranging from beginner to advanced.
 
-⚪️⚪️⚪️⚪️⚪️ → __Zero__ knowledge at all.
-
-🔵⚪️⚪️⚪️⚪️ → __Basic__ idea of what it is. No practical experience.
-
-🔵🔵⚪️⚪️⚪️ → __Low__ practical usage of skill.
-
-🔵🔵🔵⚪️⚪️ → __Decent__ usage and knowledge. Can work with it.
-
-🔵🔵🔵🔵⚪️ → __Advanced__ skill. Demonstrable knowledge via docs or projects. 
-
-🔵🔵🔵🔵🔵 → __Expert__ on subject. Knows ins and outs, could give a talk about it.
-
+```
+⚪️⚪️⚪️⚪️⚪️ → Zero knowledge at all.
+🔵⚪️⚪️⚪️⚪️ → Basic idea of what it is. No practical experience.
+🔵🔵⚪️⚪️⚪️ → Low practical usage of skill.
+🔵🔵🔵⚪️⚪️ → Decent usage and knowledge. Can work with it.
+🔵🔵🔵🔵⚪️ → Advanced skill. Demonstrable knowledge via docs or projects. 
+🔵🔵🔵🔵🔵 → Expert on subject. Knows ins and outs, could give a talk about it.
+```
 
 ## Skills Overview
 
